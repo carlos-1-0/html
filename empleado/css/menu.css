@@ -1,0 +1,37 @@
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background: url(img/dolar.jpg);
+    }
+    
+    .menu {
+        border-radius: 30px;
+        list-style: none;
+        padding: 0;
+        background: #4ABAAC;
+        width: 100%;
+        max-width: 397px;
+        margin: 20px auto;
+    }
+    
+    .menu li {
+        display: inline-block;
+        text-align: center;
+    }
+    
+    .menu li a {
+        color: beige;
+        text-decoration: none;
+        display: block;
+        padding: 20px;
+    }
+    
+    .menu li a:hover {
+        color: #4ABAAC;
+        background: beige;
+        position: ;
+    }

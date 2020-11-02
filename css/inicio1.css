@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(img/dolar.jpg);
+}
+
+.menu {
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    border-radius: 30px;
+    list-style: none;
+    padding: 0;
+    background: #8DC7BB;
+    width: 100%;
+    max-width: 3000px;
+    margin: 20px auto;
+}
+
+.menu li a {
+    text-align: center;
+    left: 300px;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+}
+
+.menu li a:hover {
+    color: #4ABAAC;
+    background: white;
+    border: 2px solid #4ABAAC;
+}
+
+.llink {
+    position: relative;
+    left: 50%;
+}
+
+
+/*
+ul {
+    float: right;
+}

@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    color: #4ABAAC;
+    background: #4ABAAC;
+}
+
+.formulario {
+    color: #4ABAAC;
+    margin: 20px auto;
+    background: #fff;
+    width: 800px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.formulario input[type="email"],
+.formulario input[type="password"],
+.formulario input[type="text"],
+.formulario input[type="tel"],
+.formulario input[type="number"],
+.formulario input[type="date"] {
+    color: #4ABAAC;
+    background: beige;
+    text-align: center;
+    width: 700px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 3px;
+    border: 2px solid #4ABAAC;
+    font-family: arial;
+    font-size: 16px;
+}
+
+.formulario input[type="submit"] {
+    color: #4ABAAC;
+    background: beige;
+    text-align: center;
+    width: 400px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 3px;
+    border: 2px solid #4ABAAC;
+    font-family: arial;
+    font-size: 16px;
+}
+
+.formulario input[type="submit"]:hover {
+    color: beige;
+    background: #4ABAAC;
+}
